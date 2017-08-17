@@ -1,4 +1,12 @@
-# PHP-Light
+
+
+
+
+* 实现控制器、模型、视图、路由、DB、配置、日志、异常捕获、缓存、中间件等基础功能
+* 实现单一入口
+* 实现路由重写
+* 实现按需加载
+
 
 ## 基本使用方法
 the basic php mvc  frame
@@ -15,3 +23,4 @@ https://www.huiwang.pw/index.php/archives/24/
 ## 优势
 
 巩固php mvc相关知识，养成良好的编码习惯
+
