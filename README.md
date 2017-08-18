@@ -3,3 +3,5 @@
 * 实现路由重写
 * 实现按需加载
 
+
+//flag: fast than lumen
