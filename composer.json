@@ -1,19 +1,21 @@
 {
-    "name":"Light",
-    "description":"Share meeting",
-    "type":"Web App",
-    "keywords":[
-        "PHP","PHP Web App"
+    "name": "lustre/framework-Light",
+    "description": "more lighter php framework.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lustre",
+            "email": "firelustre@163.com"
+        }
     ],
-    "require":{
-        "php":">=5.3.0",
-        "twig/twig":"~1.0",
-        "gregwar/captcha": "1.*"
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3"
     },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
+    "autoload": {
+        "psr-4": {
+            "DfaFilter\\": "src/Light"
         }
     }
 }
