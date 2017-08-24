@@ -10,9 +10,18 @@ namespace Light\Database;
 
 class Mysql implements DBAdapter
 {
-    public function connection(){}
+    public function connection()
+    {
 
-    public function selectDb(){}
+    }
 
-    public function query(){}
+    public function selectDb()
+    {
+
+    }
+
+    public function query()
+    {
+
+    }
 }

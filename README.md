@@ -1,5 +1,10 @@
 ## MSC 
 
+### 框架架构
+![light脑图](/pic/Light.png)
+
+
+
 M: Model 模型层
 
 S: Service 服务层
@@ -13,3 +18,4 @@ C: Controller 控制器层（数据输入输出层）
 
 
 //flag: fast than lumen
+
