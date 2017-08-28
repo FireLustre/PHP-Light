@@ -10,7 +10,7 @@ namespace Light\Database;
 
 interface DBAdapter
 {
-    public function connection();
+    public function connection($host, $root, $password, $port);
 
     public function selectDb();
 

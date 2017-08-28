@@ -12,7 +12,7 @@ class Mysql implements DBAdapter
 {
     public function connection()
     {
-
+        
     }
 
     public function selectDb()
