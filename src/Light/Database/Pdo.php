@@ -10,9 +10,22 @@ namespace Light\Database;
 
 class Pdo implements DBAdapter
 {
-    public function connection(){}
+    /**
+     * 数据库连接
+     *
+     * @var bool
+     */
+    protected static $connection = false;
 
-    public function selectDb(){}
+    public function connection($host, $root, $password, $dbname, $port)
+    {
+        if (! self::$connection) {
+            $dsn = "mysql:host={$host};dbname={$dbname};port={$port}";
+            self::$connection = new \PDO($dsn, $root, $password);
+        }
+        return self::$connection;
+    }
+
 
     public function query(){}
 }
